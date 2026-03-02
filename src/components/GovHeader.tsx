@@ -19,7 +19,6 @@ export default function GovHeader() {
         <div className="flex items-center gap-6">
           {/* Crown-style logo mark */}
           <Link to="/newco-readiness" className="govuk-header__logo" aria-label="Go to CustomerFirst homepage">
-            <span aria-hidden="true" className="mr-1">♛</span>
             <span className="hidden sm:inline">GOV.UK</span>
           </Link>
           <Link to="/newco-readiness" className="govuk-header__service-name">
